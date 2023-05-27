@@ -24,10 +24,9 @@ namespace SP1Rodriguez
 
         private void cmdLogin_Click(object sender, EventArgs e)
         {
-            Form frmLogin = new Form();
-            this.Hide();
-            frmLogin.ShowDialog();
-            this.Show();
+            fmrLogin  fmrLogin = new fmrLogin();
+            fmrLogin.ShowDialog();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
