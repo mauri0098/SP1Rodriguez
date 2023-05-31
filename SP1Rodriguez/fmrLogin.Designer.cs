@@ -41,7 +41,7 @@
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(12, 15);
+            this.lblUsuario.Location = new System.Drawing.Point(13, 25);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(43, 13);
             this.lblUsuario.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 12);
+            this.textBox1.Location = new System.Drawing.Point(79, 22);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(79, 56);
+            this.txtContraseña.Location = new System.Drawing.Point(79, 63);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
             this.txtContraseña.TabIndex = 3;
@@ -83,16 +83,17 @@
             // 
             // cmbAceptar
             // 
-            this.cmbAceptar.Location = new System.Drawing.Point(197, 12);
+            this.cmbAceptar.Location = new System.Drawing.Point(217, 19);
             this.cmbAceptar.Name = "cmbAceptar";
             this.cmbAceptar.Size = new System.Drawing.Size(75, 23);
             this.cmbAceptar.TabIndex = 5;
             this.cmbAceptar.Text = "Aceptar";
             this.cmbAceptar.UseVisualStyleBackColor = true;
+            this.cmbAceptar.Click += new System.EventHandler(this.cmbAceptar_Click);
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(197, 54);
+            this.cmdCancelar.Location = new System.Drawing.Point(217, 61);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(75, 23);
             this.cmdCancelar.TabIndex = 6;
@@ -102,6 +103,11 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "ADM",
+            "SIST",
+            "COM",
+            "VTA"});
             this.comboBox1.Location = new System.Drawing.Point(79, 100);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
@@ -111,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 172);
+            this.ClientSize = new System.Drawing.Size(344, 196);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmbAceptar);
@@ -121,6 +127,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblUsuario);
             this.Name = "fmrLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

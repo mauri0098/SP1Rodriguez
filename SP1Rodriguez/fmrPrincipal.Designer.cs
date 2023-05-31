@@ -30,13 +30,16 @@
         {
             this.cmdLogin = new System.Windows.Forms.Button();
             this.cmdSigIn = new System.Windows.Forms.Button();
+            this.lblSintepartSRL = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmdLogin
             // 
-            this.cmdLogin.Location = new System.Drawing.Point(76, 12);
+            this.cmdLogin.Location = new System.Drawing.Point(138, 278);
             this.cmdLogin.Name = "cmdLogin";
-            this.cmdLogin.Size = new System.Drawing.Size(234, 75);
+            this.cmdLogin.Size = new System.Drawing.Size(165, 52);
             this.cmdLogin.TabIndex = 0;
             this.cmdLogin.Text = "Log In";
             this.cmdLogin.UseVisualStyleBackColor = true;
@@ -44,25 +47,51 @@
             // 
             // cmdSigIn
             // 
-            this.cmdSigIn.Location = new System.Drawing.Point(76, 93);
+            this.cmdSigIn.Location = new System.Drawing.Point(138, 355);
             this.cmdSigIn.Name = "cmdSigIn";
-            this.cmdSigIn.Size = new System.Drawing.Size(234, 71);
+            this.cmdSigIn.Size = new System.Drawing.Size(165, 51);
             this.cmdSigIn.TabIndex = 1;
             this.cmdSigIn.Text = "Sig In";
             this.cmdSigIn.UseVisualStyleBackColor = true;
             this.cmdSigIn.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lblSintepartSRL
+            // 
+            this.lblSintepartSRL.AutoSize = true;
+            this.lblSintepartSRL.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSintepartSRL.Location = new System.Drawing.Point(12, 9);
+            this.lblSintepartSRL.Name = "lblSintepartSRL";
+            this.lblSintepartSRL.Size = new System.Drawing.Size(445, 73);
+            this.lblSintepartSRL.TabIndex = 2;
+            this.lblSintepartSRL.Text = "Sintepart SRL";
+            this.lblSintepartSRL.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SP1Rodriguez.Properties.Resources._4GSUPRZXXREO7A3YKFIT3W2RMM;
+            this.pictureBox1.Location = new System.Drawing.Point(30, 94);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(342, 158);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // fmrPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 198);
+            this.ClientSize = new System.Drawing.Size(479, 449);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblSintepartSRL);
             this.Controls.Add(this.cmdSigIn);
             this.Controls.Add(this.cmdLogin);
             this.Name = "fmrPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ingreso";
             this.Load += new System.EventHandler(this.fmrPrincipal_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -70,5 +99,7 @@
 
         private System.Windows.Forms.Button cmdLogin;
         private System.Windows.Forms.Button cmdSigIn;
+        private System.Windows.Forms.Label lblSintepartSRL;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

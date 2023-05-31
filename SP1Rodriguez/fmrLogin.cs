@@ -26,5 +26,10 @@ namespace SP1Rodriguez
         {
 
         }
+
+        private void cmbAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
