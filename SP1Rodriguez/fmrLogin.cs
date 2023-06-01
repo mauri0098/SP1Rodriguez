@@ -32,18 +32,38 @@ namespace SP1Rodriguez
             string usuario = txtUsuario.Text; 
             string contraseña =txtUsuario.Text; 
             string Modulo = ltsModulo.Text;
-
+            fmrBienvenida bienvenida = new fmrBienvenida();
             switch (usuario)
             {
-                case "Adm":
-                    if (contraseña == "@la" & (Modulo == "ADM"   ) & (Modulo == "COM") & (Modulo == "VIA"))
+                case "Administrador":
+                    if (contraseña == "@la" & (Modulo == "ADM") & (Modulo == "COM") & (Modulo == "VIA"))
                     {
-
+                        errores = 0;
+                        this.Hide();
+                        bienvenida.ShowDialog();
                     }
+                    break;
+            }
+            
+            
+            
 
-            }
-                
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
