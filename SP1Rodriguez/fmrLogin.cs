@@ -37,7 +37,7 @@ namespace SP1Rodriguez
             string usuario = txtUsuario.Text; 
             string contraseña = txtUsuario.Text; 
             string Modulo = ltsModulo.Text;
-            fmrBienvenida bienvenida = new fmrBienvenida();
+            fmrBienvenida fmrBienvenida = new fmrBienvenida();
             switch (usuario)
             {
                 case "Adm":
@@ -45,7 +45,7 @@ namespace SP1Rodriguez
                     {
                         errores = 0;
                         this.Hide();
-                        bienvenida.ShowDialog();
+                        fmrBienvenida.Show();
                     }
                     else
                     {
@@ -57,7 +57,7 @@ namespace SP1Rodriguez
                     {
                         errores = 0;
                         this.Hide();
-                        bienvenida.ShowDialog();
+                        fmrBienvenida.Show();
                     }
                     else
                     {
@@ -70,7 +70,7 @@ namespace SP1Rodriguez
                     {
                         errores = 0;
                         this.Hide();
-                        bienvenida.ShowDialog();
+                        fmrBienvenida.Show();
                     }
                     else
                     {
@@ -83,7 +83,7 @@ namespace SP1Rodriguez
                     {
                         errores = 0;
                         this.Hide();
-                        bienvenida.ShowDialog();
+                        fmrBienvenida.Show();
                     }
                     else
                     {
