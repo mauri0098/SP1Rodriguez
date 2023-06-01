@@ -29,11 +29,25 @@ namespace SP1Rodriguez
 
         private void cmbAceptar_Click(object sender, EventArgs e)
         {
-           
-            
-            
+            string usuario = txtUsuario.Text; 
+            string contraseña =txtUsuario.Text; 
+            string Modulo = cbModulo.Text;
+
+            switch (usuario)
+            {
+                case "ADM":
+                    if ()
+                    {
+
+                    }
+
+            }
                 
-            
+            }
+
+
+
+
 
 
 
