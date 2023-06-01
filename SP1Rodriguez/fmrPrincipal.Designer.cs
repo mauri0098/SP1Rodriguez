@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrPrincipal));
             this.cmdLogin = new System.Windows.Forms.Button();
             this.cmdSigIn = new System.Windows.Forms.Button();
             this.lblSintepartSRL = new System.Windows.Forms.Label();
@@ -85,6 +86,7 @@
             this.Controls.Add(this.lblSintepartSRL);
             this.Controls.Add(this.cmdSigIn);
             this.Controls.Add(this.cmdLogin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ingreso";

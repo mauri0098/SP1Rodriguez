@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrBienvenida));
             this.lblBienvenvido = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblSintepartSRL = new System.Windows.Forms.Label();
@@ -72,6 +73,7 @@
             this.Controls.Add(this.lblSintepartSRL);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblBienvenvido);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrBienvenida";
             this.Text = "fmrBienvenida";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
