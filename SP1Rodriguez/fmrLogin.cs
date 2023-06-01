@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,8 +14,11 @@ namespace SP1Rodriguez
 {
     public partial class fmrLogin : Form
     {
+        int errores = 0;
         public fmrLogin()
+           
         {
+            
             InitializeComponent();
         }
 
@@ -30,23 +35,68 @@ namespace SP1Rodriguez
         private void cmbAceptar_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text; 
-            string contraseña =txtUsuario.Text; 
+            string contraseña = txtUsuario.Text; 
             string Modulo = ltsModulo.Text;
             fmrBienvenida bienvenida = new fmrBienvenida();
             switch (usuario)
             {
-                case "Administrador":
-                    if (contraseña == "@la" & (Modulo == "ADM") & (Modulo == "COM") & (Modulo == "VIA"))
+                case "Adm":
+                    if (contraseña == "@1a" & (Modulo == "ADM") & (Modulo == "COM") & (Modulo == "VIA"))
                     {
                         errores = 0;
                         this.Hide();
                         bienvenida.ShowDialog();
                     }
+                    else
+                    {
+                        MessageBox.Show("contraseña y modulo incorrecto", "error",MessageBoxButtons.OK, MessageBoxIcon.Error); 
+                    }
                     break;
+                case "Ceci":
+                    if (contraseña == "*@3c" & (Modulo == "ADM" & Modulo == "VTA"))
+                    {
+                        errores = 0;
+                        this.Hide();
+                        bienvenida.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        
+                    }
+                    break;
+                case "John":
+                    if (contraseña == "*2b" & (Modulo == "SIST"))
+                    {
+                        errores = 0;
+                        this.Hide();
+                        bienvenida.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        
+                    }
+                    break;
+                    case "God":
+                    if (contraseña == "*@#4d" & (Modulo == "SIST") & (Modulo == "ADM") & (Modulo == "COM") & (Modulo == "VIA"))
+                    {
+                        errores = 0;
+                        this.Hide();
+                        bienvenida.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    }
+                    break;
+
+
             }
-            
-            
-            
+
+
+
 
 
 

@@ -86,7 +86,7 @@
             // 
             // cmbAceptar
             // 
-            this.cmbAceptar.Location = new System.Drawing.Point(234, 20);
+            this.cmbAceptar.Location = new System.Drawing.Point(217, 20);
             this.cmbAceptar.Name = "cmbAceptar";
             this.cmbAceptar.Size = new System.Drawing.Size(75, 23);
             this.cmbAceptar.TabIndex = 5;
