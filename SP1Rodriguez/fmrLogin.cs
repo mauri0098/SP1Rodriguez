@@ -31,12 +31,12 @@ namespace SP1Rodriguez
         {
             string usuario = txtUsuario.Text; 
             string contraseña =txtUsuario.Text; 
-            string Modulo = cbModulo.Text;
+            string Modulo = ltsModulo.Text;
 
             switch (usuario)
             {
                 case "ADM":
-                    if ()
+                    if (contraseña == "@la" & (Modulo == "ADM"   ) & (Modulo == "COM") & (Modulo == "VIA"))
                     {
 
                     }

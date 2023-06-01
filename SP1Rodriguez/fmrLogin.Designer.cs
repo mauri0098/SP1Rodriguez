@@ -35,13 +35,13 @@
             this.lblModulo = new System.Windows.Forms.Label();
             this.cmbAceptar = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
-            this.cbModulo = new System.Windows.Forms.ComboBox();
+            this.ltsModulo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(13, 25);
+            this.lblUsuario.Location = new System.Drawing.Point(13, 29);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(43, 13);
             this.lblUsuario.TabIndex = 0;
@@ -60,7 +60,7 @@
             // lblContraseña
             // 
             this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Location = new System.Drawing.Point(12, 63);
+            this.lblContraseña.Location = new System.Drawing.Point(12, 66);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(61, 13);
             this.lblContraseña.TabIndex = 2;
@@ -78,7 +78,7 @@
             // lblModulo
             // 
             this.lblModulo.AutoSize = true;
-            this.lblModulo.Location = new System.Drawing.Point(13, 103);
+            this.lblModulo.Location = new System.Drawing.Point(14, 103);
             this.lblModulo.Name = "lblModulo";
             this.lblModulo.Size = new System.Drawing.Size(42, 13);
             this.lblModulo.TabIndex = 4;
@@ -103,25 +103,25 @@
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
             // 
-            // cbModulo
+            // ltsModulo
             // 
-            this.cbModulo.FormattingEnabled = true;
-            this.cbModulo.Items.AddRange(new object[] {
+            this.ltsModulo.FormattingEnabled = true;
+            this.ltsModulo.Items.AddRange(new object[] {
             "ADM",
             "SIST",
             "COM",
             "VTA"});
-            this.cbModulo.Location = new System.Drawing.Point(79, 100);
-            this.cbModulo.Name = "cbModulo";
-            this.cbModulo.Size = new System.Drawing.Size(100, 21);
-            this.cbModulo.TabIndex = 7;
+            this.ltsModulo.Location = new System.Drawing.Point(79, 100);
+            this.ltsModulo.Name = "ltsModulo";
+            this.ltsModulo.Size = new System.Drawing.Size(100, 21);
+            this.ltsModulo.TabIndex = 7;
             // 
             // fmrLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 196);
-            this.Controls.Add(this.cbModulo);
+            this.Controls.Add(this.ltsModulo);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmbAceptar);
             this.Controls.Add(this.lblModulo);
@@ -146,6 +146,6 @@
         private System.Windows.Forms.Label lblModulo;
         private System.Windows.Forms.Button cmbAceptar;
         private System.Windows.Forms.Button cmdCancelar;
-        private System.Windows.Forms.ComboBox cbModulo;
+        private System.Windows.Forms.ComboBox ltsModulo;
     }
 }
