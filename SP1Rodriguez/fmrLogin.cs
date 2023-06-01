@@ -35,7 +35,7 @@ namespace SP1Rodriguez
 
             switch (usuario)
             {
-                case "ADM":
+                case "Adm":
                     if (contraseña == "@la" & (Modulo == "ADM"   ) & (Modulo == "COM") & (Modulo == "VIA"))
                     {
 
