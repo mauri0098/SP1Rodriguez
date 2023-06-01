@@ -122,6 +122,11 @@ namespace SP1Rodriguez
 
 
         }
+
+        private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
