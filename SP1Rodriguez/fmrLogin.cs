@@ -29,13 +29,11 @@ namespace SP1Rodriguez
 
         private void cmbAceptar_Click(object sender, EventArgs e)
         {
-           int intentos = 0;
+           
             
-            if (txtUsuario.Text=="adm"&&
-                txtContraseña.Text == "@la")
-            {
+            
                 
-            }
+            
 
 
 
