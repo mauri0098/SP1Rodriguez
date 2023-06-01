@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.lblUsuario = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblContraseña = new System.Windows.Forms.Label();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.lblModulo = new System.Windows.Forms.Label();
             this.cmbAceptar = new System.Windows.Forms.Button();
             this.cmdCancelar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbModulo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblUsuario
@@ -47,13 +47,15 @@
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = "Usuario";
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtUsuario.ForeColor = System.Drawing.Color.Blue;
+            this.txtUsuario.Location = new System.Drawing.Point(79, 22);
+            this.txtUsuario.MaxLength = 10;
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.TabIndex = 1;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblContraseña
             // 
@@ -69,6 +71,7 @@
             // 
             this.txtContraseña.Location = new System.Drawing.Point(79, 63);
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '#';
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
             this.txtContraseña.TabIndex = 3;
             // 
@@ -100,31 +103,31 @@
             this.cmdCancelar.Text = "Cancelar";
             this.cmdCancelar.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbModulo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbModulo.FormattingEnabled = true;
+            this.cbModulo.Items.AddRange(new object[] {
             "ADM",
             "SIST",
             "COM",
             "VTA"});
-            this.comboBox1.Location = new System.Drawing.Point(79, 100);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 7;
+            this.cbModulo.Location = new System.Drawing.Point(79, 100);
+            this.cbModulo.Name = "cbModulo";
+            this.cbModulo.Size = new System.Drawing.Size(100, 21);
+            this.cbModulo.TabIndex = 7;
             // 
             // fmrLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 196);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbModulo);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmbAceptar);
             this.Controls.Add(this.lblModulo);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.lblContraseña);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
             this.Name = "fmrLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -137,12 +140,12 @@
         #endregion
 
         private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Label lblModulo;
         private System.Windows.Forms.Button cmbAceptar;
         private System.Windows.Forms.Button cmdCancelar;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbModulo;
     }
 }
