@@ -41,7 +41,7 @@ namespace SP1Rodriguez
             switch (usuario)
             {
                 case "Adm":
-                    if (contraseña == "@1a" & (Modulo == "ADM") & (Modulo == "COM") & (Modulo == "VIA"))
+                    if (contraseña == "@1a" && (Modulo == "ADM" || Modulo == "COM" || Modulo == "VIA"))
                     {
                         errores = 0;
                         this.Hide();
@@ -53,7 +53,7 @@ namespace SP1Rodriguez
                     }
                     break;
                 case "Ceci":
-                    if (contraseña == "*@3c" & (Modulo == "ADM" & Modulo == "VTA"))
+                    if (contraseña == "*@3c" && Modulo == "ADM" || Modulo == "VTA")
                     {
                         errores = 0;
                         this.Hide();
@@ -61,7 +61,8 @@ namespace SP1Rodriguez
                     }
                     else
                     {
-                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);errores = 0;
+                        
                         
                     }
                     break;
