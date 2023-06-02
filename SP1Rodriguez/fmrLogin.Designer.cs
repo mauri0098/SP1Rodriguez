@@ -45,7 +45,7 @@
             this.lblUsuario.Location = new System.Drawing.Point(16, 31);
             this.lblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(49, 16);
+            this.lblUsuario.Size = new System.Drawing.Size(47, 16);
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -53,7 +53,7 @@
             // 
             this.txtUsuario.ForeColor = System.Drawing.Color.Blue;
             this.txtUsuario.Location = new System.Drawing.Point(92, 28);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.MaxLength = 10;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(116, 21);
@@ -66,7 +66,7 @@
             this.lblContraseña.Location = new System.Drawing.Point(13, 81);
             this.lblContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(68, 16);
+            this.lblContraseña.Size = new System.Drawing.Size(66, 16);
             this.lblContraseña.TabIndex = 2;
             this.lblContraseña.Text = "Contraseña";
             this.lblContraseña.Click += new System.EventHandler(this.lblContraseña_Click);
@@ -74,7 +74,7 @@
             // txtContraseña
             // 
             this.txtContraseña.Location = new System.Drawing.Point(92, 78);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '#';
             this.txtContraseña.Size = new System.Drawing.Size(116, 21);
@@ -93,7 +93,7 @@
             // cmbAceptar
             // 
             this.cmbAceptar.Location = new System.Drawing.Point(243, 25);
-            this.cmbAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.cmbAceptar.Name = "cmbAceptar";
             this.cmbAceptar.Size = new System.Drawing.Size(88, 28);
             this.cmbAceptar.TabIndex = 5;
@@ -104,7 +104,7 @@
             // cmdCancelar
             // 
             this.cmdCancelar.Location = new System.Drawing.Point(243, 75);
-            this.cmdCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(88, 28);
             this.cmdCancelar.TabIndex = 6;
@@ -121,7 +121,7 @@
             "COM",
             "VTA"});
             this.ltsModulo.Location = new System.Drawing.Point(92, 124);
-            this.ltsModulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ltsModulo.Margin = new System.Windows.Forms.Padding(4);
             this.ltsModulo.Name = "ltsModulo";
             this.ltsModulo.Size = new System.Drawing.Size(116, 24);
             this.ltsModulo.TabIndex = 7;
@@ -139,9 +139,9 @@
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
-            this.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmrLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
