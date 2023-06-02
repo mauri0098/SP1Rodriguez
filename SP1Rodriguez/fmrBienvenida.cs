@@ -16,5 +16,15 @@ namespace SP1Rodriguez
         {
             InitializeComponent();
         }
+
+        private void lblBienvenvido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fmrBienvenida_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

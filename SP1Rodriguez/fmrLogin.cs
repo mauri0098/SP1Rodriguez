@@ -50,6 +50,7 @@ namespace SP1Rodriguez
                     else
                     {
                         MessageBox.Show("contraseña y modulo incorrecto", "error",MessageBoxButtons.OK, MessageBoxIcon.Error); 
+                        
                     }
                     break;
                 case "Ceci":
@@ -89,13 +90,24 @@ namespace SP1Rodriguez
                     else
                     {
                         MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                        
                     }
                     break;
+                    
+                    
+                    
+
+
+
+
 
 
             }
-
+            
+            
+               
+            
+            
 
 
 
@@ -125,6 +137,11 @@ namespace SP1Rodriguez
         }
 
         private void cmdCancelar_Click(object sender, EventArgs e)
+        {
+            this .Close();
+        }
+
+        private void fmrLogin_Load(object sender, EventArgs e)
         {
 
         }

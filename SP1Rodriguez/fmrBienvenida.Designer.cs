@@ -44,6 +44,7 @@
             this.lblBienvenvido.Size = new System.Drawing.Size(576, 108);
             this.lblBienvenvido.TabIndex = 3;
             this.lblBienvenvido.Text = "Bienvenvido";
+            this.lblBienvenvido.Click += new System.EventHandler(this.lblBienvenvido_Click);
             // 
             // pictureBox1
             // 
@@ -76,6 +77,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrBienvenida";
             this.Text = "fmrBienvenida";
+            this.Load += new System.EventHandler(this.fmrBienvenida_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

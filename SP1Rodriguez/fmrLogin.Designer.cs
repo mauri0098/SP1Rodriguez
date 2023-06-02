@@ -145,6 +145,7 @@
             this.Name = "fmrLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.fmrLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
