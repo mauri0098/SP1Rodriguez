@@ -35,13 +35,13 @@ namespace SP1Rodriguez
         private void cmbAceptar_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text; 
-            string contraseña = txtUsuario.Text; 
+            string contraseña = txtContraseña.Text; 
             string Modulo = ltsModulo.Text;
             fmrBienvenida fmrBienvenida = new fmrBienvenida();
             switch (usuario)
             {
                 case "Adm":
-                    if (contraseña == "@1a" && (Modulo == "ADM" || Modulo == "COM" || Modulo == "VIA"))
+                    if (contraseña == "@1a" & (Modulo == "ADM" || Modulo == "COM" || Modulo == "VIA"))
                     {
                         errores = 0;
                         this.Hide();
@@ -53,7 +53,7 @@ namespace SP1Rodriguez
                     }
                     break;
                 case "Ceci":
-                    if (contraseña == "*@3c" && Modulo == "ADM" || Modulo == "VTA")
+                    if (contraseña == "*@3c" & (Modulo == "ADM" || Modulo == "VTA"))
                     {
                         errores = 0;
                         this.Hide();
@@ -80,7 +80,7 @@ namespace SP1Rodriguez
                     }
                     break;
                     case "God":
-                    if (contraseña == "*@#4d" & (Modulo == "SIST") & (Modulo == "ADM") & (Modulo == "COM") & (Modulo == "VIA"))
+                    if (contraseña == "*@#4d" & (Modulo == "SIST" ||  Modulo == "ADM" || Modulo == "COM" || Modulo == "VIA"))
                     {
                         errores = 0;
                         this.Hide();
