@@ -38,7 +38,7 @@
             // cmdIniciarSesion
             // 
             this.cmdIniciarSesion.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdIniciarSesion.Location = new System.Drawing.Point(122, 254);
+            this.cmdIniciarSesion.Location = new System.Drawing.Point(124, 254);
             this.cmdIniciarSesion.Name = "cmdIniciarSesion";
             this.cmdIniciarSesion.Size = new System.Drawing.Size(153, 39);
             this.cmdIniciarSesion.TabIndex = 0;
