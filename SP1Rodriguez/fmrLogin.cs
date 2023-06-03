@@ -62,7 +62,7 @@ namespace SP1Rodriguez
                     }
                     else
                     {
-                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);errores = 0;
+                        MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         
                         
                     }
