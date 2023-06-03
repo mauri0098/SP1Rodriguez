@@ -95,7 +95,7 @@
             // 
             // cmbAceptar
             // 
-            this.cmbAceptar.Location = new System.Drawing.Point(243, 22);
+            this.cmbAceptar.Location = new System.Drawing.Point(243, 26);
             this.cmbAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.cmbAceptar.Name = "cmbAceptar";
             this.cmbAceptar.Size = new System.Drawing.Size(88, 28);
@@ -106,7 +106,7 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(243, 79);
+            this.cmdCancelar.Location = new System.Drawing.Point(243, 76);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(88, 28);

@@ -41,7 +41,7 @@ namespace SP1Rodriguez
             switch (usuario)
             {
                 case "Adm":
-                    if (contraseña == "@1a" & (Modulo == "ADM" || Modulo == "COM" || Modulo == "VIA"))
+                    if (contraseña == "@1a" & (Modulo == "ADM" || Modulo == "COM" || Modulo == "VTA"))
                     {
                         errores = 0;
                         this.Hide();
