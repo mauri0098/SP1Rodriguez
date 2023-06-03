@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrPrincipal));
-            this.cmdLogin = new System.Windows.Forms.Button();
+            this.cmdIniciarSesion = new System.Windows.Forms.Button();
             this.lblSintepartSRL = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // cmdLogin
+            // cmdIniciarSesion
             // 
-            this.cmdLogin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdLogin.Location = new System.Drawing.Point(109, 273);
-            this.cmdLogin.Name = "cmdLogin";
-            this.cmdLogin.Size = new System.Drawing.Size(164, 50);
-            this.cmdLogin.TabIndex = 0;
-            this.cmdLogin.Text = "Log In";
-            this.cmdLogin.UseVisualStyleBackColor = true;
-            this.cmdLogin.Click += new System.EventHandler(this.cmdLogin_Click);
+            this.cmdIniciarSesion.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdIniciarSesion.Location = new System.Drawing.Point(109, 254);
+            this.cmdIniciarSesion.Name = "cmdIniciarSesion";
+            this.cmdIniciarSesion.Size = new System.Drawing.Size(164, 50);
+            this.cmdIniciarSesion.TabIndex = 0;
+            this.cmdIniciarSesion.Text = "Iniciar Sesion";
+            this.cmdIniciarSesion.UseVisualStyleBackColor = true;
+            this.cmdIniciarSesion.Click += new System.EventHandler(this.cmdLogin_Click);
             // 
             // lblSintepartSRL
             // 
@@ -71,10 +71,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 386);
+            this.ClientSize = new System.Drawing.Size(416, 356);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSintepartSRL);
-            this.Controls.Add(this.cmdLogin);
+            this.Controls.Add(this.cmdIniciarSesion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmrPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -88,7 +88,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button cmdLogin;
+        private System.Windows.Forms.Button cmdIniciarSesion;
         private System.Windows.Forms.Label lblSintepartSRL;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
