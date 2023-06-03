@@ -42,17 +42,18 @@
             // IblUsuario
             // 
             this.IblUsuario.AutoSize = true;
+            this.IblUsuario.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IblUsuario.Location = new System.Drawing.Point(16, 31);
             this.IblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.IblUsuario.Name = "IblUsuario";
-            this.IblUsuario.Size = new System.Drawing.Size(47, 16);
+            this.IblUsuario.Size = new System.Drawing.Size(51, 16);
             this.IblUsuario.TabIndex = 0;
             this.IblUsuario.Text = "Usuario";
             // 
             // txtUsuario
             // 
             this.txtUsuario.ForeColor = System.Drawing.Color.Blue;
-            this.txtUsuario.Location = new System.Drawing.Point(92, 28);
+            this.txtUsuario.Location = new System.Drawing.Point(94, 29);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.MaxLength = 10;
             this.txtUsuario.Name = "txtUsuario";
@@ -63,17 +64,18 @@
             // IblContraseña
             // 
             this.IblContraseña.AutoSize = true;
+            this.IblContraseña.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IblContraseña.Location = new System.Drawing.Point(13, 81);
             this.IblContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.IblContraseña.Name = "IblContraseña";
-            this.IblContraseña.Size = new System.Drawing.Size(66, 16);
+            this.IblContraseña.Size = new System.Drawing.Size(73, 16);
             this.IblContraseña.TabIndex = 2;
             this.IblContraseña.Text = "Contraseña";
             this.IblContraseña.Click += new System.EventHandler(this.lblContraseña_Click);
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(92, 78);
+            this.txtContraseña.Location = new System.Drawing.Point(94, 79);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '#';
@@ -83,6 +85,7 @@
             // IblModulo
             // 
             this.IblModulo.AutoSize = true;
+            this.IblModulo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IblModulo.Location = new System.Drawing.Point(16, 127);
             this.IblModulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.IblModulo.Name = "IblModulo";
@@ -92,7 +95,7 @@
             // 
             // cmbAceptar
             // 
-            this.cmbAceptar.Location = new System.Drawing.Point(243, 25);
+            this.cmbAceptar.Location = new System.Drawing.Point(243, 22);
             this.cmbAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.cmbAceptar.Name = "cmbAceptar";
             this.cmbAceptar.Size = new System.Drawing.Size(88, 28);
@@ -103,7 +106,7 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(243, 75);
+            this.cmdCancelar.Location = new System.Drawing.Point(243, 79);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(88, 28);
@@ -120,7 +123,7 @@
             "SIST",
             "COM",
             "VTA"});
-            this.ltsModulo.Location = new System.Drawing.Point(92, 124);
+            this.ltsModulo.Location = new System.Drawing.Point(92, 125);
             this.ltsModulo.Margin = new System.Windows.Forms.Padding(4);
             this.ltsModulo.Name = "ltsModulo";
             this.ltsModulo.Size = new System.Drawing.Size(116, 24);
