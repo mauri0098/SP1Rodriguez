@@ -95,7 +95,7 @@
             // 
             // cmbAceptar
             // 
-            this.cmbAceptar.Location = new System.Drawing.Point(243, 26);
+            this.cmbAceptar.Location = new System.Drawing.Point(231, 26);
             this.cmbAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.cmbAceptar.Name = "cmbAceptar";
             this.cmbAceptar.Size = new System.Drawing.Size(88, 28);
@@ -106,7 +106,7 @@
             // 
             // cmdCancelar
             // 
-            this.cmdCancelar.Location = new System.Drawing.Point(243, 76);
+            this.cmdCancelar.Location = new System.Drawing.Point(231, 76);
             this.cmdCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.cmdCancelar.Name = "cmdCancelar";
             this.cmdCancelar.Size = new System.Drawing.Size(88, 28);
@@ -133,7 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 184);
+            this.ClientSize = new System.Drawing.Size(354, 184);
             this.Controls.Add(this.ltsModulo);
             this.Controls.Add(this.cmdCancelar);
             this.Controls.Add(this.cmbAceptar);
