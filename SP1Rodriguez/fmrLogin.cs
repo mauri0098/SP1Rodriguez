@@ -50,7 +50,7 @@ namespace SP1Rodriguez
                     else
                     {
                         MessageBox.Show("contraseña y modulo incorrecto", "error",MessageBoxButtons.OK, MessageBoxIcon.Error); 
-                        
+                        errores ++;
                     }
                     break;
                 case "Ceci":
@@ -63,7 +63,7 @@ namespace SP1Rodriguez
                     else
                     {
                         MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        
+                        errores++;
                         
                     }
                     break;
@@ -77,6 +77,7 @@ namespace SP1Rodriguez
                     else
                     {
                         MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        errores++;
                         
                     }
                     break;
@@ -90,6 +91,7 @@ namespace SP1Rodriguez
                     else
                     {
                         MessageBox.Show("contraseña y modulo incorrecto", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        errores++;
                         
                     }
                     break;
@@ -103,7 +105,12 @@ namespace SP1Rodriguez
 
 
             }
-            
+            if (errores==2)
+            {
+                MessageBox.Show("demasiados intentos fallidos,el formulario se cerrara");
+                this.Close();
+
+            }
             
                
             
