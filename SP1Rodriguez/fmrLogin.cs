@@ -107,7 +107,7 @@ namespace SP1Rodriguez
             }
             if (errores==2)
             {
-                MessageBox.Show("demasiados intentos fallidos,el formulario se cerrara");
+                MessageBox.Show("Demasiados intentos fallidos,el formulario se cerrara");
                 this.Close();
 
             }
