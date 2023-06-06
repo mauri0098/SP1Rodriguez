@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SP1Rodriguez
 {
-    public partial class fmrPrincipal : Form
+    public partial class frmPrincipal : Form
     {
-        public fmrPrincipal()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace SP1Rodriguez
 
         private void cmdLogin_Click(object sender, EventArgs e)
         {
-            fmrLogin  fmrLogin = new fmrLogin();
+            frmLogin  fmrLogin = new frmLogin();
             this.Hide();
             fmrLogin.ShowDialog();
             

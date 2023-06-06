@@ -1,6 +1,6 @@
 ﻿namespace SP1Rodriguez
 {
-    partial class fmrBienvenida
+    partial class frmBienvenida
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmrBienvenida));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBienvenida));
             this.lblBienvenvido = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblSintepartSRL = new System.Windows.Forms.Label();
@@ -66,7 +66,7 @@
             this.lblSintepartSRL.TabIndex = 5;
             this.lblSintepartSRL.Text = "Sintepart SRL";
             // 
-            // fmrBienvenida
+            // frmBienvenida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -75,7 +75,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblBienvenvido);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "fmrBienvenida";
+            this.Name = "frmBienvenida";
             this.Text = "fmrBienvenida";
             this.Load += new System.EventHandler(this.fmrBienvenida_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -16,7 +16,7 @@ namespace SP1Rodriguez
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmrPrincipal());
+            Application.Run(new frmPrincipal());
         }
     }
 }

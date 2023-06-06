@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace SP1Rodriguez
 {
-    public partial class fmrLogin : Form
+    public partial class frmLogin : Form
     {
         int errores = 0;
-        public fmrLogin()
+        public frmLogin()
            
         {
             
@@ -37,7 +37,7 @@ namespace SP1Rodriguez
             string usuario = txtUsuario.Text; 
             string contraseña = txtContraseña.Text; 
             string Modulo = ltsModulo.Text;
-            fmrBienvenida fmrBienvenida = new fmrBienvenida();
+            frmBienvenida fmrBienvenida = new frmBienvenida();
             switch (usuario)
             {
                 case "Adm":
