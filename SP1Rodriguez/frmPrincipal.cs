@@ -10,21 +10,18 @@ using System.Windows.Forms;
 
 namespace SP1Rodriguez
 {
-    public partial class frmBienvenida : Form
+    public partial class frmPrincipal : Form
     {
-        public frmBienvenida()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
 
-        private void lblBienvenvido_Click(object sender, EventArgs e)
+        private void cmdIniciarSesion_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void fmrBienvenida_Load(object sender, EventArgs e)
-        {
-
+            frmLogin fmrLogin = new frmLogin();
+            this.Hide();
+            fmrLogin.ShowDialog();
         }
     }
 }

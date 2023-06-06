@@ -46,34 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fmrBienvenida.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fmrBienvenida.Designer.cs">
-      <DependentUpon>fmrBienvenida.cs</DependentUpon>
-    </Compile>
     <Compile Include="fmrLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fmrLogin.Designer.cs">
       <DependentUpon>fmrLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmrPrincipal.cs">
+    <Compile Include="frmBienvenida.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmrPrincipal.Designer.cs">
-      <DependentUpon>fmrPrincipal.cs</DependentUpon>
+    <Compile Include="frmBienvenida.Designer.cs">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fmrBienvenida.resx">
-      <DependentUpon>fmrBienvenida.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fmrLogin.resx">
       <DependentUpon>fmrLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmrPrincipal.resx">
-      <DependentUpon>fmrPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
