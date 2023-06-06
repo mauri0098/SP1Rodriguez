@@ -82,7 +82,7 @@ namespace SP1Rodriguez
                     }
                     break;
                     case "God":
-                    if (contraseña == "*@#4d" & (Modulo == "SIST" ||  Modulo == "ADM" || Modulo == "COM" || Modulo == "VIA"))
+                    if (contraseña == "*@#4d" & (Modulo == "SIST" ||  Modulo == "ADM" || Modulo == "COM" || Modulo == "VTA"))
                     {
                         errores = 0;
                         this.Hide();
